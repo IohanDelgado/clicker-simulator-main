@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#clicker-container {
+    text-align: center;
+}
+
+#click-button {
+    font-size: 16px;
+    padding: 5px 20px;
+    cursor: pointer;
+    top: 10%;
+}
+
+#about {
+    position: absolute;
+    margin-right: auto;
+    top: 100%;
+}
+
+#title {
+    position: absolute;
+    margin-right: auto;
+    top: 5%;
+}
+
+#click-count {
+    position: absolute;
+    margin-left: 3em;
+    margin-right: auto;
+    top: 30%;
+}
+
+#click-count-second {
+    position: absolute;
+    margin-left: -1em;
+    margin-right: auto;
+    top: 30%;
+}
